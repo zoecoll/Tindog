@@ -1,6 +1,5 @@
 
 
-
 body {
   font-family: "Montserrat"
 }
@@ -124,4 +123,13 @@ padding-bottom: 4.5rem;
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
