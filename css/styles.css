@@ -10,7 +10,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 h1 {
@@ -69,11 +69,19 @@ padding-bottom: 4.5rem;
 
 /* Title Image */
 
+.title-img-div {
+  position: relative;
+  padding-bottom: 500px;
+}
+
+
 .title-image {
-  width: 60%;
+  width: 65%;
   transform: rotate(25deg);
   position: absolute;
 }
+
+
 
 /* Features */
 
@@ -81,7 +89,7 @@ padding-bottom: 4.5rem;
   padding: 7% 15%;
   background-color: #fff;
   position: relative;
-  z-index: -1;
+  z-index: 1;
 }
 
 
@@ -137,4 +145,16 @@ padding-bottom: 4.5rem;
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+  text-align: center;  
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0)
+  }
 }
