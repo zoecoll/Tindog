@@ -1,6 +1,7 @@
 
 
 
+
 body {
   font-family: "Montserrat"
 }
@@ -167,7 +168,7 @@ padding-bottom: 4.5rem;
   text-align: center;
 }
 
-.true-love {
+.cta-heading{
   font-family: "Montserrat";
   font-weight: 900;
   font-size: 60px;
@@ -175,17 +176,14 @@ padding-bottom: 4.5rem;
   padding: 0px 200px 30px;
 }
 
-.footer-button {
-font-size: 20px;
-margin: 5% 3% 5% 0;
-}
+/* Footer Section */
 
 #footer {
   background-color: #fff;
-  padding: 7% 10%;
+  padding: 7% 15%;
   text-align: center;
 }
 
 .footer-icons {
-  padding-bottom: 10%;
+  margin: 20px 10px;
 }
